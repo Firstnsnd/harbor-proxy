@@ -8,7 +8,7 @@ Then you need to exec the next command in your terminal
 ```sh
 go run main.go
 ```
-now,you need to edit the `/etc/hosts` file using `vim` and add the following entry:
+Now,you need to edit the `/etc/hosts` file using `vim` and add the following entry:
 ```
 127.0.0.1       dev.test.com
 ```
@@ -23,7 +23,7 @@ don't forget that restart docker
 ```sh
 systemctl restart docker
 ```
-Please, tag an image as `dev.test.com:8099/****:***` for testing.
+Please, tag an image name format as `dev.test.com:8099/****:***` for testing.
 ```sh
  docker tag d2c94e258dcb dev.test.com:8099/g299_remote/ss_g612/redis:latest
 ```
