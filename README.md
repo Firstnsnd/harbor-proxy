@@ -23,7 +23,11 @@ don't forget that restart docker
 ```sh
 systemctl restart docker
 ```
-tag an image as `dev.test.com:8099/****:***` for testing. Final, you can push and pull the image through your proxy service to Harbor.
+Please, tag an image as `dev.test.com:8099/****:***` for testing.
+```sh
+ docker tag d2c94e258dcb dev.test.com:8099/g299_remote/ss_g612/redis:latest
+```
+Finally, you can push and pull the image through your proxy service to Harbor.
 ```sh
 $ docker push dev.test.com:8099/g299_remote/ss_g612/redis:latest
 The push refers to repository [dev.test.com:8099/g299_remote/ss_g612/redis]
