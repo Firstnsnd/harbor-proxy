@@ -4,7 +4,7 @@ A demo example for setting up a proxy for the Docker registry Harbor.
 # How to run
 First, replace this value `var domain = "your_harbor_domain"` with your domain.
 
-Then you need to exec the next command in your termianl
+Then you need to exec the next command in your terminal
 ```sh
 go run main.go
 ```
