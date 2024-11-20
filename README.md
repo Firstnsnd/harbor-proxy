@@ -13,7 +13,7 @@ This Go library provides a reverse proxy implementation to handle requests and m
 To use this library, you need to have Go installed. You can get the library by running:
 
 ```bash
-go get github.com/Firstnsnd/reverse-proxy
+go get github.com/Firstnsnd/harbor-proxy
 ```
 
 ## Usage
