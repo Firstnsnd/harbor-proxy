@@ -19,7 +19,7 @@ go get github.com/Firstnsnd/reverse-proxy
 ## Usage
 Import the package in your Go application:
 ```go
-import "github.com/Firstnsnd/reverse-proxy"
+import "github.com/Firstnsnd/harbor-proxy"
 ```
 Create a new reverse proxy and start handling requests:
 
@@ -27,7 +27,7 @@ Create a new reverse proxy and start handling requests:
 package main
 
 import (
-	"github.com/Firstnsnd/reverse-proxy"
+	"github.com/Firstnsnd/harbor-proxy"
 	"log"
 	"net/http"
 )
